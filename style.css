@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    color: aliceblue;
+    background-color:  hsl(198, 98%, 58%)
+}
+.navbar{
+    display: flex;
+    gap: 80px;
+}
+.navbar a{
+    color: aliceblue;
+    position: relative;
+    left: 1200px;
+}
+.weare{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    position: relative;
+    top: 70px;
+}
+.limon{
+    display: flex;
+    justify-content: center;
+}
+.limon img{
+    width: 1000px;
+    height:  300px;
+    display: flex;
+}
+.transform{
+   background-color:white;
+   color: black;
+   font-size: 30px;
+   display: flex;
+   width: 100%;
+
+}
+.trans{
+    width: 50%;
+    padding: 80px 200px;
+    position: relative;
+    top: 120px;
+    font-size: 40px;
+    
+}
+.transform img{
+    height: 100%;
+    width: 1000px;
+}
+.transform a{
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+}
+.stander{
+    background-color:white;
+    display: flex;
+    color: black;
+}
+.stand{
+ font-size: 40px;
+ padding: 80px 200px;
+ position: relative;
+ top: 120px;
+ font-size: 40px;
+}
+.stander img{
+    width: 902px;
+}
+.stander a{
+    color: black;
+    font-size: 20px;
+    background-color: yellow;
+}
+.main1{
+    display: flex;
+    background-image: url(images/desktop/image-graphic-design.jpg) ;
+    width: 1001px;
+    height: 600px;
+    background-size: 100%;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    
+}
+.main1 p{
+    font-size: 20px;
+    padding: 50px;
+}
+.main2{
+    background-image: url(images/desktop/image-photography.jpg);
+    width: 1000px;
+    height: 500px;
+    background-size: 100%;
+    color: black;
+    font-size: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.main{
+    display: flex;
+    
+}
+.client{
+    background-color: white;
+    padding: 90px;
+    color: rgba(0, 0, 0, 0.481);
+    display: flex;
+    justify-content: center;
+}
+#conta{
+    color: azure;  
+}
+.image{
+    display: flex;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 90px;
+    
+}
+.image p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.image1{
+    position: relative;
+    left: 50px;
+    
+}
+#im{
+    position: relative;
+    left: 150px;
+    padding: 40px;
+    border-radius: 400px;
+}
+
+.fin{
+    display: flex;
+    height: 591px;
+    
+
+}
+#fo{
+    background-color: hsl(167, 66%, 48%);
+    color: rgba(0, 0, 0, 0.494) ;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: 40px;
+}
+.finsh{
+    background-color: hsl(167, 66%, 48%);
+    color: rgba(0, 0, 0, 0.494);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.finsh a{
+    color:rgba(0, 0, 0, 0.494) ;
+    position: relative;
+    font-size: 30px;
+}
+.icon{
+    background-color: hsl(167, 66%, 48%) ;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap: 30px
+    ;
+}
+
+@media (max-width:375px){
+   
+    .navbar{
+       display: flex;
+       flex-direction: column;
+        
+    }
+   
+    .weare{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 350px;
+        top: -10px;
+    }
+    .limon{
+        position: relative;
+        left: 300px;
+        
+    }
+    .transform{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+        
+        
+    }
+    .stander{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+        padding: 0px;
+    }
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+    }
+    .client{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+        padding: 0px;
+    }
+    
+    .image{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;;
+    }
+    
+    .fin{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+    }
+    .finsh{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 292%;
+    }
+    
+    
+    
