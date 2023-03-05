@@ -183,7 +183,7 @@ body{
     ;
 }
 
-@media (max-width:375px){
+/* @media (max-width:375px){
    
     .navbar{
        display: flex;
@@ -251,7 +251,7 @@ body{
         flex-direction: column;
         background-color: aliceblue;
         width: 292%;
-    }
-    
+    } */
+
     
     
